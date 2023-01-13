@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <header class="head_main">
+  
+        <h1 class="titre">Vinyle & Co</h1>
+             <nav>
+            <ul class="nav_links">
+              <li><a href="http://127.0.0.1:5500/acceuil.html">Accueil</a></li>
+              <li><a href="http://127.0.0.1:5500/inscription.html">Inscription</a></li>
+              <li> <a href="http://127.0.0.1:5500/produit.html">Produit</a> </li>
+              
+            </ul>
+              
+          </nav>
+           </div>
+
+    
+    <form  action="inscription.php" method="get">
+
+
+        <div class="testbox">
+            <h1>Inscription</h1>
+          
+            <form action="/">
+                <hr>
+              <div class="accounttype">
+                <input type="radio" value="None" id="radioOne" name="account" checked/>
+                <label for="radioOne" class="radio" chec>Particulier</label>
+                <input type="radio" value="None" id="radioTwo" name="account" />
+                <label for="radioTwo" class="radio">Professionnel</label>
+              </div>
+            <hr>
+            <label id="icon" for="name"><i class="icon-envelope "></i></label>
+            <input type="text" name="mail" id="name" placeholder="Email" required/>
+
+            <label id="icon" for="name"><i class="icon-user"></i></label>
+            <input type="text" name="Nom" id="name" placeholder="Nom" required/>
+
+            <label id="icon" for="name"><i class="icon-shield"></i></label>
+            <input type="password" name="mdp" id="name" placeholder="Mot de passe" required/>
+
+            <div class="gender">
+              <input type="radio" value="None" id="male" name="gender" checked/>
+              <label for="male" class="radio" chec>Homme</label>
+              <input type="radio" value="None" id="female" name="gender" />
+              <label for="female" class="radio">Femme</label>
+              <div class="tgv"><input class="button" type="submit" value="Inscription"></div>
+             </div> 
+
+             
+             <!--<a href="#" class="button" submit="Inscription">Inscription</a> -->
+            </form>
+          </div>
+          
+        </form>
+
+
+
+
+
+    
+</body>
+</html>

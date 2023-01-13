@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+}
+.head_main {
+    background-color: #1d1b1a;
+}
+.head_main img {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    right: 50%;
+    top: 13%;
+
+}
+li, a, button { 
+    font-family: "Raleway",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+   
+}
+
+header {
+    display: flex;
+    justify-content: flex-end   ;
+    align-items: center;
+    padding: 30px 10%;
+}
+.titre {
+    cursor: pointer;
+    margin-right: auto;
+    color:  rgb(151, 17, 17);
+    font-style: oblique;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3sec ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(151, 17, 17);
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(4, 4, 4);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3sec ease 0s;
+    margin-left: 20px;
+}
+button:hover {
+    background-color: #0066FF;
+}
+.container img {
+    position: absolute;
+    height: 288px;
+    width: 288px;
+    right: 70%; 
+}
+.container p {
+    position: absolute;
+    top: 20%;
+    right: 65%;
+}
+.bane img {
+    position: absolute;
+    height: 288px;
+    width: 288px;
+    right: 40%; 
+    
+}
+.bane p {
+    position: absolute;
+    top: 20%;
+    right: 28%
+}
